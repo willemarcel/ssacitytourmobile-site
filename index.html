@@ -21,6 +21,8 @@
 <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link href="css/media-queries.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/l10n.js"></script>
+<link rel="localizations" href="js/i18n.json" type="application/l10n+json"/>
 <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 
 <meta name="viewport" content="width=device-width" />
@@ -51,11 +53,11 @@
 			<div class="nav-collapse collapse">
 				<ul id="nav-list" class="nav pull-right">
 					<li><a href="#home">Home</a></li>
-					<li><a href="#about">Sobre</a></li>
-					<li><a href="#updates">Atualizações</a></li>
+					<li><a data-l10n-id="about" href="#about">Sobre</a></li>
+					<li><a data-l10n-id="updates" href="#updates">Atualizações</a></li>
 					<li><a href="#screenshots">Screenshots</a></li>
-					<li><a href="#sponsor">Patrocínio</a></li>
-					<li><a href="#contact">Contato</a></li>
+					<li><a data-l10n-id="sponsor" href="#sponsor">Patrocínio</a></li>
+					<li><a data-l10n-id="contact" href="#contact">Contato</a></li>
 				</ul>
 			</div>
 		
@@ -92,11 +94,11 @@
 			
 			<!-- VERSION -->
 			<div id="version">
-				<span class="version-top label label-inverse">Versão 1.2.1</span>
+				<span data-l10n-id="version-1-2-1" class="version-top label label-inverse">Versão 1.2.1</span>
 			</div>
             
 			<!-- TAGLINE -->
-			<div id="tagline">
+			<div data-l10n-id="tagline" id="tagline">
 				Faça um city tour gratuito por Salvador!
 			</div>
 		
@@ -106,16 +108,16 @@
 			</div>
             
 			<!-- DESCRIPTION -->
-			<div id="description">
+			<div data-l10n-id="description1" id="description">
 				Quando você estiver dentro de um raio de 100 metros de distância de algum dos principais pontos turísticos da capital baiana, um áudio com conteúdo informativo-cultural sobre aquele ponto estará disponível no aplicativo.
 			</div>
             
 			<!-- FEATURES -->
 			<ul id="features">
-				<li>11 pontos turísticos já disponíveis</li>
-				<li>Áudio em português e inglês</li>
-				<li>Acesso offline</li>
-				<li>Completamente gratuito!</li>
+				<li data-l10n-id="feature1">11 pontos turísticos já disponíveis</li>
+				<li data-l10n-id="feature2">Áudio em português e inglês</li>
+				<li data-l10n-id="feature3">Acesso offline</li>
+				<li data-l10n-id="feature4">Completamente gratuito!</li>
 			</ul>
 		
 			<!-- DOWNLOAD & REQUIREMENT BOX -->
@@ -125,12 +127,12 @@
 			<div class="download-box">
 				<a href="https://play.google.com/store/apps/details?id=com.citytour.salvador"><img src="img/android_app_on_play_logo_large.png"></a>
 			</div>
-			<div class="download-box">
-				<strong>Requisitos:</strong><br>
+			<div data-l10n-id="compatible1" class="download-box">
+				<strong data-l10n-id="requirements">Requisitos:</strong><br>
 				Compatível com iPhone e iPad. Requer iOS 6.0 ou superior e acesso ao GPS.
 			</div>
-			<div class="download-box">
-				<strong>Requisitos:</strong><br>
+			<div data-l10n-id="compatible2" class="download-box">
+				<strong data-l10n-id="requirements">Requisitos:</strong><br>
 				Compatível com Android 2.3.3 ou superior. Requer apenas acesso ao GPS.
 			</div>
 			
@@ -143,18 +145,18 @@
 	<div class="row-fluid" id="about">
 	
 		<div class="span6">
-			<h2 class="page-title" id="scroll_up">
+			<h2 data-l10n-id="about" class="page-title" id="scroll_up">
 				Sobre
 				<a href="#home" class="arrow-top">
 				<img src="img/arrow-top.png">
 				</a>
 			</h2>
 			
-			<p>O projeto City Tour Mobile tem por objetivo divulgar conteúdo informativo-cultural através de visitas guiadas em formato de áudio sobre pontos turísticos de Salvador utilizando ferramentas de Geolocalização (GeoTags). Nesta primeira etapa é possível acessar narrativas sonoras de 11 pontos turísticos: Antiga Faculdade de Medicina, Centro Cultural Solar Ferrão, Terreiro de Jesus, Igreja de São Francisco, Catedral Basílica, Farol da Barra, Ponta do Humaitá, Mercado Modelo, Igreja do Bonfim, Lagoa do Abaeté e Arena Fonte Nova, utilizando um aplicativo conectado ao GPS do seu dispositivo.</p>	
+			<p data-l10n-id="description2">O projeto City Tour Mobile tem por objetivo divulgar conteúdo informativo-cultural através de visitas guiadas em formato de áudio sobre pontos turísticos de Salvador utilizando ferramentas de Geolocalização (GeoTags). Nesta primeira etapa é possível acessar narrativas sonoras de 11 pontos turísticos: Antiga Faculdade de Medicina, Centro Cultural Solar Ferrão, Terreiro de Jesus, Igreja de São Francisco, Catedral Basílica, Farol da Barra, Ponta do Humaitá, Mercado Modelo, Igreja do Bonfim, Lagoa do Abaeté e Arena Fonte Nova, utilizando um aplicativo conectado ao GPS do seu dispositivo.</p>	
 		</div>
 	
 		<div class="span6 updates" id="updates">
-			<h2 class="page-title" id="scroll_up">
+			<h2 data-l10n-id="updates" class="page-title" id="scroll_up">
 				Atualizações
 				<a href="#home" class="arrow-top">
 				<img src="img/arrow-top.png">
@@ -163,17 +165,17 @@
 			
 			<!-- UPDATES & RELEASE NOTES -->
 			
-			<h3 class="version">Versão 1.2.1</h3>
-			<span class="release-date">Lançado em 05 de Junho de 2014</span>
+			<h3 data-l10n-id="version-1-2-1" class="version">Versão 1.2.1</h3>
+			<span data-l10n-id="release1" class="release-date">Lançado em 05 de Junho de 2014</span>
 			<ul>
-				<li><span class="label label-info">NOVO</span>Correção de erro na tradução</li>
+				<li data-l10n-id="traduction-correction"><span data-l10n-id="new" class="label label-info">NOVO</span>Correção de erro na tradução</li>
 			</ul>
 			
-			<h3 class="version">Versão 1.2.0</h3>
-			<span class="release-date">Lançado em 05 de Junho de 2014</span>
+			<h3 data-l10n-id="version-1-2-0" class="version">Versão 1.2.0</h3>
+			<span data-l10n-id="release1" class="release-date">Lançado em 05 de Junho de 2014</span>
 			<ul>
-				<li>Internacionalização da interface</li>
-				<li>Correção de erros no player de áudio</li>
+				<li data-l10n-id="internationalization">Internacionalização da interface</li>
+				<li data-l10n-id="audio-correction">Correção de erros no player de áudio</li>
 			</ul>
 			
 		</div>
@@ -229,14 +231,14 @@
 		
 		<!-- CONTACT INFO -->
 		<div class="span6" id="contact-info">
-		  <h2 class="page-title" id="scroll_up">
+		  <h2 data-l10n-id="contact" class="page-title" id="scroll_up">
 				  Contato
 				  <a href="#home" class="arrow-top">
 				  <img src="img/arrow-top.png">
 				  </a>
 			</h2>
-			<h3>Entre em Contato</h3>
-			<p>Entre em contato conosco ou reporte bugs no aplicativo.<p>
+			<h3 data-l10n-id="contact-title">Entre em Contato</h3>
+			<p data-l10n-id="contact-text">Entre em contato conosco ou reporte bugs no aplicativo.<p>
 			<p><a href="mailto:contato@citytourmobile.com">contato@citytourmobile.com</a></p>
 		</div>
 		
@@ -245,7 +247,7 @@
 		<!-- CONTACT FORM -->
     <div class="span6" id="sponsor">
 
-	    <h2 class="page-title" id="scroll_up">
+	    <h2 data-l10n-id="sponsor" class="page-title" id="scroll_up">
 			    Patrocínio
 			    <a href="#home" class="arrow-top">
 			    <img src="img/arrow-top.png">
@@ -253,7 +255,7 @@
 		    </h2>
 
 		    <p class="pagination-centered"><a href="http://cultura.gov.br/"><img src="img/minc.png" class="img-responsive"></a></p>
-		    <p>Este projeto foi financiado pelo Ministério da Cultura através do edital "Concurso Cultura 2014" com o nome Mapa Sonoro Ssa para ação cultural durante o período da Copa no Brasil.</p>
+		    <p data-l10n-id="description3">Este projeto foi financiado pelo Ministério da Cultura através do edital "Concurso Cultura 2014" com o nome Mapa Sonoro Ssa para ação cultural durante o período da Copa no Brasil.</p>
     </div>
 		
 	</div>
