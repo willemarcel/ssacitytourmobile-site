@@ -1,40 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Salvador City Tour Mobile</title>
 
-<!-- CHANGE THIS TITLE TAG -->
-<title>Salvador City Tour Mobile</title>
+  <!-- media-queries.js -->
+  <!--[if lt IE 9]>
+	  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+  <!-- html5.js -->
+  <!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
-<!-- media-queries.js -->
-<!--[if lt IE 9]>
-	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->
-<!-- html5.js -->
-<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+  <link href="font/stylesheet.css" rel="stylesheet" type="text/css" />	
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <link href="css/media-queries.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="js/l10n.js"></script>
+  <link rel="localizations" href="js/i18n.json" type="application/l10n+json"/>
+  <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 
-
-<link href="font/stylesheet.css" rel="stylesheet" type="text/css" />	
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
-<link href="css/styles.css" rel="stylesheet" type="text/css" />
-<link href="css/media-queries.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="js/l10n.js"></script>
-<link rel="localizations" href="js/i18n.json" type="application/l10n+json"/>
-<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
-
-<meta name="viewport" content="width=device-width" />
- 
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-<link href='http://fonts.googleapis.com/css?family=Exo:400,800' rel='stylesheet' type='text/css'>
-
+  <meta name="viewport" content="width=device-width" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href='http://fonts.googleapis.com/css?family=Exo:400,800' rel='stylesheet' type='text/css'>
 </head>
 
 <body data-spy="scroll">
-
 <!-- TOP MENU NAVIGATION -->
 <div class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
@@ -65,26 +58,21 @@
 	</div>
 </div>
 
-
 <!-- MAIN CONTENT -->
 <div class="container content container-fluid" id="home">
-
-
-
-	<!-- HOME -->
+<!-- HOME -->
 	<div class="row-fluid">
-  
 		<!-- PHONES IMAGE FOR DESKTOP MEDIA QUERY -->
 		<div class="span5 visible-desktop">
-			<img src="img/phones.png">
+			<img src="img/phones.png" alt="Phone image">
 		</div>
-	
+		
 		<!-- APP DETAILS -->
 		<div class="span7">
 	
 			<!-- ICON -->
 			<div class="visible-desktop" id="icon">
-				<img src="img/app_icon.png" />
+				<img src="img/app_icon.png" alt="app icon"/>
 			</div>
 			
 			<!-- APP NAME -->
@@ -99,17 +87,17 @@
             
 			<!-- TAGLINE -->
 			<div data-l10n-id="tagline" id="tagline">
-				Faça um city tour gratuito por Salvador!
+				<p>Faça um city tour gratuito por Salvador!</p>
 			</div>
 		
 			<!-- PHONES IMAGE FOR TABLET MEDIA QUERY -->
 			<div class="hidden-desktop" id="phones">
-				<img src="img/phones.png">
+				<img src="img/phones.png" alt="Phone image">
 			</div>
             
 			<!-- DESCRIPTION -->
 			<div data-l10n-id="description1" id="description">
-				Quando você estiver dentro de um raio de 100 metros de distância de algum dos principais pontos turísticos da capital baiana, um áudio com conteúdo informativo-cultural sobre aquele ponto estará disponível no aplicativo.
+				<p>Quando você estiver dentro de um raio de 100 metros de distância de algum dos principais pontos turísticos da capital baiana, um áudio com conteúdo informativo-cultural sobre aquele ponto estará disponível no aplicativo.</p>
 			</div>
             
 			<!-- FEATURES -->
@@ -122,10 +110,10 @@
 		
 			<!-- DOWNLOAD & REQUIREMENT BOX -->
 			<div class="download-box">
-				<a href="https://itunes.apple.com/us/app/salvador-city-tour-mobile/id885276845?ls=1&mt=8"><img src="img/available-on-the-app-store.png"></a>
+				<a href="https://itunes.apple.com/us/app/salvador-city-tour-mobile/id885276845?ls=1&mt=8"><img src="img/available-on-the-app-store.png" alt="Available on the App Store"></a>
 			</div>
 			<div class="download-box">
-				<a href="https://play.google.com/store/apps/details?id=com.citytour.salvador"><img src="img/android_app_on_play_logo_large.png"></a>
+				<a href="https://play.google.com/store/apps/details?id=com.citytour.salvador"><img src="img/android_app_on_play_logo_large.png" alt="Available on Google Play"></a>
 			</div>
 			<div data-l10n-id="compatible1" class="download-box">
 				<strong data-l10n-id="requirements">Requisitos:</strong><br>
@@ -139,8 +127,6 @@
 		</div>
 	</div>
 	
-	
-	
 	<!-- ABOUT & UPDATES -->
 	<div class="row-fluid" id="about">
 	
@@ -148,10 +134,9 @@
 			<h2 data-l10n-id="about" class="page-title" id="scroll_up">
 				Sobre
 				<a href="#home" class="arrow-top">
-				<img src="img/arrow-top.png">
+				<img src="img/arrow-top.png" alt="Go to top">
 				</a>
 			</h2>
-			
 			<p data-l10n-id="description2">O projeto City Tour Mobile tem por objetivo divulgar conteúdo informativo-cultural através de visitas guiadas em formato de áudio sobre pontos turísticos de Salvador utilizando ferramentas de Geolocalização (GeoTags). Nesta primeira etapa é possível acessar narrativas sonoras de 11 pontos turísticos: Antiga Faculdade de Medicina, Centro Cultural Solar Ferrão, Terreiro de Jesus, Igreja de São Francisco, Catedral Basílica, Farol da Barra, Ponta do Humaitá, Mercado Modelo, Igreja do Bonfim, Lagoa do Abaeté e Arena Fonte Nova.</p>	
 		</div>
 	
@@ -159,7 +144,7 @@
 			<h2 data-l10n-id="updates" class="page-title" id="scroll_up">
 				Atualizações
 				<a href="#home" class="arrow-top">
-				<img src="img/arrow-top.png">
+				<img src="img/arrow-top.png" alt="Go to top">
 				</a>
 			</h2>
 			
@@ -186,15 +171,13 @@
 	
 	</div>
 	
-	
-	
 	<!-- SCREENSHOTS -->
 	<div class="row-fluid" id="screenshots">
 		
 		<h2 class="page-title" id="scroll_up">
 				Screenshots
 				<a href="#home" class="arrow-top">
-				<img src="img/arrow-top.png">
+				<img src="img/arrow-top.png" alt="Go to top">
 				</a>
 			</h2>
 		
@@ -202,87 +185,70 @@
 		<ul class="thumbnails">
 			<li class="span3">
 				<a href="img/screenshot1.jpg" rel="gallery" class="thumbnail">
-				<img src="img/screenshot1.jpg" alt="">
+				<img src="img/screenshot1.jpg" alt="App Screenshot - map page">
 				</a>
 			</li>
 		
 			<li class="span3">
 				<a href="img/screenshot2.jpg" rel="gallery" class="thumbnail">
-				<img src="img/screenshot2.jpg" alt="">
+				<img src="img/screenshot2.jpg" alt="App Screenshot - point found">
 				</a>
 			</li>
 			
 			<li class="span3">
 				<a href="img/screenshot3.jpg" rel="gallery" class="thumbnail">
-				<img src="img/screenshot3.jpg" alt="">
+				<img src="img/screenshot3.jpg" alt="App Screenshot - map-page">
 				</a>
 			</li>
  
 			<li class="span3">
 				<a href="img/screenshot4.jpg" rel="gallery" class="thumbnail">
-				<img src="img/screenshot4.jpg" alt="">
+				<img src="img/screenshot4.jpg" alt="App Screenshot">
 				</a>
 			</li>
 		</ul>	
 	</div>
 	
-	
-	
 	<!-- CONTACT -->
-	<div class="row-fluid" id="contact">
-	
-
-		
+	<div class="row-fluid" id="contact">	
 		<!-- CONTACT INFO -->
 		<div class="span6" id="contact-info">
 		  <h2 data-l10n-id="contact" class="page-title" id="scroll_up">
 				  Contato
 				  <a href="#home" class="arrow-top">
-				  <img src="img/arrow-top.png">
+				  <img src="img/arrow-top.png" alt="Go to top">
 				  </a>
 			</h2>
 			<h3 data-l10n-id="contact-title">Entre em Contato</h3>
 			<p data-l10n-id="contact-text">Entre em contato conosco ou reporte bugs no aplicativo.<p>
 			<p><a href="mailto:contato@citytourmobile.com">contato@citytourmobile.com</a></p>
 		</div>
-		
-
-		
+			
 		<!-- CONTACT FORM -->
     <div class="span6" id="sponsor">
-
 	    <h2 data-l10n-id="sponsor" class="page-title" id="scroll_up">
 			    Patrocínio
 			    <a href="#home" class="arrow-top">
-			    <img src="img/arrow-top.png">
+			    <img src="img/arrow-top.png" alt="Go to top">
 			    </a>
 		    </h2>
-
-		    <p class="pagination-centered"><a href="http://cultura.gov.br/"><img src="img/minc.png" class="img-responsive" width="200px"></a></p>
+		    <p class="pagination-centered"><a href="http://cultura.gov.br/"><img src="img/minc.png" class="img-responsive" width="200px" alt="Ministério da Cultura"></a></p>
 		    <p data-l10n-id="description3">Este projeto foi financiado pelo Ministério da Cultura através do edital "Concurso Cultura 2014" com o nome Mapa Sonoro Ssa para ação cultural durante o período da Copa no Brasil.</p>
     </div>
-		
 	</div>
-	
 </div>
-
 
 <!-- FOOTER -->
 <div class="footer container container-fluid">
-
-	<!-- COPYRIGHT - EDIT HOWEVER YOU WANT! -->
 	<div id="copyright">
 		<p>&copy; 2014 Futurível Web & Mobile.</p>
 		<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
 	</div>
-	
 	<!-- CREDIT - PLEASE LEAVE THIS LINK! -->
 	<div id="credits">
 		<a href="http://github.differential.io/flexapp">Theme</a> by <a href="http://carp.io">Carp</a>.
 	</div>
-
 </div>
-
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bootstrap-collapse.js"></script>
@@ -290,6 +256,5 @@
 <script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
 <script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <script src="js/init.js"></script>
-
 </body>
 </html>
