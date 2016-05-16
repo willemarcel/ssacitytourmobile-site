@@ -3,7 +3,7 @@
   "about":"About",
   "updates":"Updates",
   "sponsor":"Sponsor",
-  "contact":"Contact",
+  "staff":"Staff",
   "version-130":"Version 1.3.0",
   "version-121":"Version 1.2.1",
   "version-120":"Version 1.2.0",
@@ -25,6 +25,10 @@
   "feature3":"Offline access",
   "feature4":"Absolutely free!",
   "compatible1":"Compatible with iPhone and iPad. Requires iOS 6.0 or higher and GPS access.",
-  "compatible2":"Compatible with Android 2.3.3 or higher. Only requires GPS access."
+  "compatible2":"Compatible with Android 2.3.3 or higher. Only requires GPS access.",
+  "clara-text":"Clara Marques Campos - Productor",
+  "macello-text":"Macello Medeiros - Creator and Audio Productor",
+  "wille-text":"Wille Marcel - Developer",
+  "thales-text":"Thales Bruno - Developer"
 }
 }
